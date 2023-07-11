@@ -2,16 +2,19 @@
 # project-ml-microservice-kubernetes
 The K8s sample project python machine learning vs flask webserver.
 
-RUN:
 1.Run Docker 
-./run_docker.sh
-./make_prediction.sh
+```
+  ./run_docker.sh
+  ./make_prediction.sh
+```
 
 2.Run Kubernetes
-./run_docker.sh
-./upload_docker.sh
-./run_kuberneter.sh
-./make_prediction.sh
+```
+  ./run_docker.sh
+  ./upload_docker.sh
+  ./run_kuberneter.sh
+  ./make_prediction.sh
+```
 
 Prequiment: Docker Hub, Docker Desktop enable kubernetes.
 
