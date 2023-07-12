@@ -41,6 +41,9 @@ COPY output_txt_files /app/output_txt_files
 # Set the log file path
 ENV LOG_FILE_PATH /app/output_txt_files/docker_out.txt
 
+# for show in k8s
+ENV PYTHONUNBUFFERED 1
+
 # Install packages from requirements.txt
 # hadolint ignore=DL3013
 RUN pip install --upgrade pip &&\

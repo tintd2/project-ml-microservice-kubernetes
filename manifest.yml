@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devops
+  labels:
+    name: devops
+spec:
+  selector:
+    matchLabels:
+      name: devops
+  template:
+    metadata:
+      labels:
+        name: devops
+    spec:
+      containers:
+        - name: devops
+          image: dinhtin12/devops:1.0.0
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
