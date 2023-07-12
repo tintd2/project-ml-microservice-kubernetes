@@ -3,18 +3,19 @@
 The K8s sample project python machine learning vs flask webserver.
 
 1.Run Docker 
-```
-  ./run_docker.sh
-  ./make_prediction.sh
-```
+
+  - Run on docker `./run_docker.sh`
+  
+  - Call api `./make_prediction.sh`
+
 
 2.Run Kubernetes
-```
-  ./run_docker.sh
-  ./upload_docker.sh
-  ./run_kuberneter.sh
-  ./make_prediction.sh
-```
+
+ - Run on docker `./run_docker.sh`
+ - Upload image to docker hub `./upload_docker.sh`
+ - Run on k8s `./run_kuberneter.sh`
+ - Call Api `./make_prediction.sh`
+
 
 Prequiment: Docker Hub, Docker Desktop enable kubernetes.
 
